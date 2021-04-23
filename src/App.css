@@ -36,3 +36,105 @@
     transform: rotate(360deg);
   }
 }
+
+.traffic {
+  margin-top: 5%;
+  margin-left: 20%;
+  width: 50%;
+  float: left;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+  margin-left: 5px;
+  margin-top: 11px;
+}
+
+.red {
+  border: 5px solid #000;
+  background-color: #ff0000;
+}
+
+.green {
+  border: 5px solid #000;
+  background-color: #00ff04;
+}
+
+.yellow {
+  border: 5px solid #000;
+  background-color: #f6ff00;
+}
+
+
+.redOff {
+  border: 5px solid #000;
+  top: 10%;
+  background-color: #8a0707;
+  opacity: 0.5;
+}
+
+.greenOff {
+  border: 5px solid #000;
+  top: 40%;
+  background-color: #236b14;
+  opacity: 0.5;
+}
+
+.yellowOff {
+  border: 5px solid #000;
+  top: 70%;
+  background-color: #8a7807;
+  opacity: 0.5;
+}
+
+@font-face {
+  font-family: 'digital-clock-font';
+  src: url('./font/digital-7\ \(mono\).ttf')
+}
+
+.redTimer {
+  font-family: 'digital-clock-font';
+  font-size: 6em;
+  color: #ff0000;
+  text-align: inherit;
+}
+
+.greenTimer {
+  font-family: 'digital-clock-font';
+  font-size: 6em;
+  color: #00ff04;
+  text-align: inherit;
+}
+
+.yellowTimer {
+  font-family: 'digital-clock-font';
+  font-size: 6em;
+  color: #f6ff00;
+  text-align: inherit;
+}
+
+.trafficTimer {
+  margin-top: 12px;
+  width: fit-content;
+}
+
+.pedestrian {
+  width: 50%;
+  float: right;
+}
+
+.fas {
+  font-size: 100px;
+}
+
+.walk {
+  color: #00ff04;
+}
+
+.wait {
+  color: #ff0000;
+}
